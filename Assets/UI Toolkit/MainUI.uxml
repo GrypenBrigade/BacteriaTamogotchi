@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/button.uss?fileID=7433441132597879392&amp;guid=2753327fe1e004046a9f70668f5a7f3a&amp;type=3#button"/>
+    <ui:VisualElement name="FeedContainer" style="flex-grow: 1; bottom: 43px; right: 0; left: 0; position: absolute; justify-content: center; align-self: flex-start; align-items: center; height: 48px;">
+        <ui:Button text="Feed" class="button" style="bottom: 0; right: 0; width: 90%; height: 90%; align-items: flex-start; justify-content: flex-start;"/>
+    </ui:VisualElement>
+</ui:UXML>
