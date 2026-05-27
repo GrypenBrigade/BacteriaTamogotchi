@@ -5,7 +5,11 @@
         <ui:Button text="Buy" name="Buy" class="button"/>
     </ui:VisualElement>
     <ui:VisualElement name="HungerContainer" style="flex-grow: 1; bottom: 68px; position: absolute; right: 0; left: 0; height: 73px;">
+        <ui:VisualElement name="FoodContainer" class="text" style="flex-grow: 1; align-items: flex-start; align-self: flex-start; align-content: flex-start; right: -40px; left: auto; bottom: auto; position: absolute; width: 144px; justify-content: center; height: 36px; flex-direction: row;">
+            <ui:Label text="Food:" name="Food"/>
+            <ui:Label text="0" name="Amount"/>
+        </ui:VisualElement>
         <ui:Label text="Hunger" name="Label" class="text"/>
-        <ui:ProgressBar value="22" title="" name=""/>
+        <ui:ProgressBar value="100" title="" name=""/>
     </ui:VisualElement>
 </ui:UXML>

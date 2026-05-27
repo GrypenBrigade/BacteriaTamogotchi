@@ -1,0 +1,4 @@
+repository "BacteriaTamogotchi/BacteriaTamogotchi@1375887619455@cloud"
+  path "/"
+    br "/main"
+    co "/main"
